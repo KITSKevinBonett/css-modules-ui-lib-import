@@ -9,8 +9,8 @@ This project was bootstrapped with [create-react-app-css-modules](https://www.np
 ## How to use
 
 ### 1. Install library / libraries in this consuming app
-- `npm i css-modules-ui-lib-poc` - library V1 built with create-react-app. Contains "node_modules" folder. Probably wrong folder structure but good enough to test UI components import functionality.
-- `npm link react-no-webpack` - library V2 built without Webpack. Simpler folder structure than V1 so `link` is sufficient here.
+- `npm i css-modules-ui-lib-poc` - library V1 built with Create React App, and published to NPM.
+- `npm link react-no-webpack` - library V2 built without Webpack. Simpler folder structure than V1. Need to `link` as it is not published to NPM.
 
 ### 2. Example `<WidgetCSS />` and `<Button />` usage
 ```jsx
@@ -38,3 +38,6 @@ export default class MyComponent extends Component {
   }
 }
 ```
+
+### 3. View in browser
+```npm start```
